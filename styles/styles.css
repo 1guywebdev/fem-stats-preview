@@ -31,6 +31,7 @@ p {
   font-family: 'Lexend Deca';
   padding-top: 1em;
   line-height: 1.5rem;
+  color: var(--main-paragraph);
 }
 .container {
   background-color: var(--card-bg);
@@ -75,13 +76,14 @@ p {
   .description {
     text-align: left !important;
     padding-right: 3em !important;
-    padding-top: 2.5em !important;
+    padding-top: 2em !important;
     width: 100%;
     padding-left: 3em !important;
   }
   p {
     word-spacing: 0.3rem;
     padding-right: 3em;
+    padding-top: 2em;
   }
   .stats-container {
     display: flex;
@@ -89,6 +91,7 @@ p {
     justify-content: flex-start;
     gap: 2em;
     padding-left: 3em;
+    padding-top: 1em;
   }
   .stats1, .stats2, .stats3 {
     text-align: left !important;
@@ -152,6 +155,8 @@ p {
   text-transform: uppercase;
   font-size: 1rem;
   padding-top: 0.3em;
+  color: var(--main-paragraph);
+  font-weight: 400;
 }
 .insights {
   color: var(--accent);
@@ -162,5 +167,4 @@ p {
 }
 .attribution a { 
   color: hsl(0, 0%, 72%); 
-  
 }
